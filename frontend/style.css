@@ -499,6 +499,13 @@ header h1 {
     transition: color 0.2s ease;
 }
 
+.new-chat-btn::before {
+    content: '▶';
+    display: inline-block;
+    margin-right: 0.5rem;
+    font-size: 0.75rem;
+}
+
 .new-chat-btn:hover {
     color: var(--primary-color);
 }
